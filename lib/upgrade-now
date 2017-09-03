@@ -1,0 +1,78 @@
+#!/bin/bash
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-aptus-upgrade"
+if [ "`cat /etc/default/locale | grep de_DE`" != "" ]; then
+. $DEFLOCDIR/de
+elif [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+elif [ "`cat /etc/default/locale | grep ru_RU`" != "" ]; then
+. $DEFLOCDIR/ru
+elif [ "`cat /etc/default/locale | grep sv_SE`" != "" ]; then
+. $DEFLOCDIR/se
+else
+. $DEFLOCDIR/en
+fi
+
+testroot="`whoami`"
+
+if [ "$testroot" != "root" ]; then
+    /usr/bin/remsu $0 &
+fi
+
+DIALOG="yad --width 400"
+TITLE="--always-print-result --dialog-sep --window-icon=/usr/share/icons/sparky/upgrade/aptus-upgrade.png --image=/usr/share/icons/sparky/upgrade/aptus-upgrade.png --title="
+TITLETEXT="$LOCAL1"
+ENTRY="--entry"
+TEXT="--text="
+ENTRYTEXT="--entry-text"
+MSGBOX=" --button=Ok:0"
+
+# checking connection
+PINGTEST=$(ping -c 1 debian.org | grep [0-9])
+
+if [ "$PINGTEST" = "" ]; then
+    $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL3"
+    exit 1
+fi
+
+# get info about packages to be upgraded
+UPGRADE1=$(cat /tmp/aptus-upgrade/checkout | tail -n2 | grep [kM]B)
+
+if [ "$UPGRADE1" != "" ]; then
+
+# build window
+ACTION=$($DIALOG $TITLE"$TITLETEXT" $ENTRY \
+    $MSGBOX \
+    $TEXT"$UPGRADE1\n\n$LOCAL4" \
+    $ENTRYTEXT \
+    "$LOCAL5" "$LOCAL6" "$LOCAL7")
+
+case $ACTION in
+    $LOCAL5*) cmd="/usr/lib/sparky-aptus-upgrade/upgrade-exe upgradefull" ;;
+    $LOCAL6*) cmd="/usr/lib/sparky-aptus-upgrade/upgrade-exe changelog" ;;
+    $LOCAL7*) exit 0 ;;
+    *) exit 0 ;;        
+esac
+
+eval exec $cmd
+
+else
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL8"
+	exit 0
+
+fi
+
+exit 0

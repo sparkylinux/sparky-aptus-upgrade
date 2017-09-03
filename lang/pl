@@ -1,0 +1,19 @@
+# Polish localization file for Sparky APTus Upgrade.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Translated to Polish by pavroo
+# Last update by pavroo 2016/04/24
+
+LOCAL1="Aktualizacja Systemu"
+LOCAL2="To system Live!\nZainstaluj Sparky na dysku komputera zanim go zaktualizujesz.\n\nZamknij..."
+LOCAL3="Połączenie z internetem nieudane!\n\nPrawdopodobnie NIE jesteś połączony z internetem lub główny serwer repozytoriów jest niedostępny.\n\nSprawdź to i spróbuj ponownie."
+LOCAL4="Aktualizować system teraz?"
+LOCAL5="Aktualizuj"
+LOCAL6="Lista_Zmian"
+LOCAL7="Wyjście"
+LOCAL8="Twój system jest zaktualizowany!\n\nZamknij..."
+LOCAL9="Aktualizuj(--no-recommends)"
+
+### .desktop file, również do przetłumaczenia
+# Name[pl_PL]=Aktualizacja Systemu
+# Comment[pl_PL]=Narzędzie do aktualizacji systemu

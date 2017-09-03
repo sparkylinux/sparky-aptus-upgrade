@@ -1,0 +1,34 @@
+
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=System Upgrade
+Name[de_DE]=System Upgrade
+Name[es_AR]=Actualización del Sistema
+Name[fr_FR]=Mise à jour du Système
+Name[it_IT]=Aggiorna il Sistema
+Name[ja_JP]=システムアップグレード
+Name[pl_PL]=Aktualizacja Systemu
+Name[pt_BR]=Sistema de Atualização (Upgrade)
+Name[pt_PT]=Atualização do Sistema
+Name[ru_RU]=Обновление системы
+Name[sv_SE]=Systemuppgradering
+GenericName=System Upgrade
+Comment=System Upgrade Tool
+Comment[de_DE]=System Upgrade Tool zum aktualisieren
+Comment[es_AR]=Herramienta de Actualización del Sistema
+Comment[fr_FR]=Outil pour la mise à jour du Système
+Comment[it_IT]=Strumento per aggiornare il sistema
+Comment[ja_JP]=システムアップグレードツール
+Comment[pl_PL]=Narzędzie do aktualizacji systemu
+Comment[pt_BR]=Ferramenta do Sistema de Atualização (Upgrade)
+Comment[pt_PT]=Ferramenta de Atualização do Sistema
+Comment[ru_RU]=Инструмент обновления системы
+Comment[sv_SE]=Systemuppgraderingsverktyg
+Exec=remsu /usr/bin/sparky-aptus-upgrade
+Icon=/usr/share/icons/sparky/upgrade/aptus-upgrade.png
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Applications;System
+

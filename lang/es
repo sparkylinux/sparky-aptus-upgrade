@@ -1,0 +1,18 @@
+# Archivo de localización en español para Sparky APTus Upgrade.
+# Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/22
+# Bajo la licencia GNU GPL v2
+# Last update by pavroo 2016/04/24
+
+LOCAL1="Actualización del Sistema"
+LOCAL2="¡Esto es un sistema Live!\nInstale Sparky en el disco rígido y luego actualícelo.\n\nSalir ahora..."
+LOCAL3="¡Falló la prueba de conexión a Internet!\n\nProbablemente Ud NO esté conectado a Internet o el servidor principal del repositorio se haya caído.\n\nVerifique esto e inténtelo nuevamente."
+LOCAL4="¿Actualizar el sistema ahora?"
+LOCAL5="Actualizar"
+LOCAL6="Registro_de_cambios"
+LOCAL7="Salir"
+LOCAL8="¡Su sistema está actualizado!\n\nSalir ahora..."
+LOCAL9="Actualizar(--no-recommends)"
+
+### .desktop file to be translated too
+# Name[es_AR]=Actualización del Sistema
+# Comment[es_AR]=Herramienta de Actualización del Sistema

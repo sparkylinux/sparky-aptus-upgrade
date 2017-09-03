@@ -1,0 +1,74 @@
+Upstream Author(s): 
+    Paweł "pavroo" Pijanowski <pavroo@onet.eu>
+    
+Files: *
+    Copyright (C) 2014, 2015, 2016, 2017 Paweł Pijanowski
+    License: GPL-2
+
+File: de
+    Copyright (C) 2015 Pete B.
+    License: GPL-2
+
+File: es
+    Copyright (C) 2016 Fernando "seacat" Velo <seacat.linux@gmail.com>
+    License: GPL-2
+
+File: fr
+    Copyright (C) 2016 hiver <hiver@club-internet.fr>
+    License: GPL-2
+
+File: it
+    Copyright (C) 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com>
+    License: GPL-2
+
+File: ja
+    Copyright (C) 2016 BALLOON a.k.a. Fu-sen
+    License: GPL-2
+
+File: pt_BR
+    Copyright (C) 2015 Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com>
+    License: GPL-2
+
+File: pt_PT
+    Copyright (C) 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com>
+    License: GPL-2
+
+File: ru
+    Copyright (C) 2016 Igor Klyushnyov <inklu@yandex.ru>
+    License: GPL-2
+
+File: se
+    Copyright (C) 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com>
+    License: GPL-2
+    
+File: aptus-upgrade.png is based on gnome-mime-application-x-java.png which is a part of Noir Crystal icon set.
+Noir Crystal is an icon theme inspired by Cylon by Naf71 and black-white by DBG.
+The majority of icons used in Noir Crystal are from the wonderful Crystal B & W Vista/XP theme by Pit-Tux http://pit-tux.deviantart.com/.
+Folders are by Jérémy Paul http://shteuf.deviantart.com/.
+Network and Browser icons by Lothar Grimme http://www.grafixport.org/ from his KDE icon theme Carpelinx.
+The drive-harddisk icons are by Laurent Baumann http://lbaumann.com/.
+Other resources I used were Dark Glass for KDE 3.x by Alessandro Rei http://www.mentalrey.it/icons.html, Human-O2 by Schollidesign http://schollidesign.deviantart.com/art/Human-O2-Iconset-105344123, and especially Oxygen-Refit by deviantdark http://deviantdark.deviantart.com/art/Oxygen-Refit-70199755.
+Plus some nicked from MacOSX.
+License: GPL-2
+
+License:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+ 
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+ 
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
+
+The Debian packaging is (C) 2014, 2015, 2016, 2017 Paweł Pijanowski <pavroo@onet.eu> and
+is licensed under the GPL, see above.
