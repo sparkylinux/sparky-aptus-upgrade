@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Last update 2017/04/13
+# Last update 2018/02/17
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus-upgrade"
@@ -57,9 +57,9 @@ fi
 
 if [ "$1" = "upgradefull" ]
 then
-	$SPARKYXTERM -e "apt full-upgrade --no-install-recommends -y --force-yes"
-	sleep 1
-	$SPARKYXTERM -e "apt install -f"
+	$SPARKYXTERM -e "apt full-upgrade --no-install-recommends -y --force-yes && apt install -f"
+	#sleep 1
+	#$SPARKYXTERM -e "apt install -f"
 	sleep 1
 	### re-check is your system up-to-date ###
 	/usr/bin/sparky-aptus-upgrade
