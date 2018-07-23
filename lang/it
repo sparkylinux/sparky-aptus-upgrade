@@ -2,8 +2,7 @@
 # Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 22/10/2015
 # Rilasciato sotto licenza GNU GPL v2
 # Ultimo aggiornamento 22/10/2015
-# Last update by pavroo 2016/04/24
-
+# Last update by pavroo 2018/07/23
 LOCAL1="Aggiorna il sistema"
 LOCAL2="È una live!\nPuoi aggiornare Sparky solo dopo che lo hai installato sul disco.\n\nSto uscendo..."
 LOCAL3="Test della connessione internet falito!\n\nProbabilemnte NON sei connesso ad internet od il repository principale è ofline.\n\nControlla e prova di nuovo."
@@ -13,7 +12,6 @@ LOCAL6="Lista_delle_modifiche"
 LOCAL7="Esci"
 LOCAL8="Il tuo sistema è aggiornato!\n\nSto uscendo..."
 LOCAL9="Aggiornamento(--no-recommends)"
-
 ### .desktop file to be translated too
 # Name[it_IT]=Aggiorna il Sistema
 # Comment[it_IT]=Strumento per aggiornare il sistema

@@ -1,9 +1,8 @@
-#Arquivo de localização para o Português do Brasil  para o  aplicativo Sparky APTus Upgrade
+# Arquivo de localização para o Português do Brasil  para o  aplicativo Sparky APTus Upgrade
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Sob a licença GNU GPL v2
 # Traduzido por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/10/30
-# Last update by pavroo 2016/04/24
-
+# Last update by pavroo 2018/07/23
 LOCAL1="Atualização do Sistema ("upgrade" mesmo!)"
 LOCAL2="Este é um sistema "live"!\nInstale o Sparky no disco rígido de seu computador e depois faça a atualização dele.\n\nSaindo agora ..."
 LOCAL3="Teste da conexão de Internet falhou!\n\nProvavelmente voce não está conectado na Internet ou o repositório do servidor principal caiu ou está fora do ar.\n\nVerifique isto e tente novamente."
@@ -13,7 +12,6 @@ LOCAL6="Mostre_Log_de_Modificações"
 LOCAL7="Fim"
 LOCAL8="Seu sistema está atualizado agora!\n\nSaindo agora ..."
 LOCAL9="Atualizar_agora(--no-recommends)"
-
 ### .desktop file to be translated too
 # Name[pt_BR]=Sistema de Atualização (Upgrade)
 # Comment[pt_BR]=Ferramenta do Sistema de Atualização (Upgrade)
