@@ -1,17 +1,17 @@
-# Arquivo de localização para o Português do Brasil  para o  aplicativo Sparky APTus Upgrade
+#Arquivo de localização para o Português do Brasil  para o  aplicativo Sparky APTus Upgrade
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Sob a licença GNU GPL v2
 # Traduzido por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/10/30
-# Last update by pavroo 2018/07/23
-LOCAL1="Atualização do Sistema ("upgrade" mesmo!)"
-LOCAL2="Este é um sistema "live"!\nInstale o Sparky no disco rígido de seu computador e depois faça a atualização dele.\n\nSaindo agora ..."
-LOCAL3="Teste da conexão de Internet falhou!\n\nProvavelmente voce não está conectado na Internet ou o repositório do servidor principal caiu ou está fora do ar.\n\nVerifique isto e tente novamente."
+# Last update by pavroo 2018/08/02
+LOCAL1="Atualização do Sistema (upgrade)"
+LOCAL2="Esse é um sistema "live"!\nInstale o Sparky no disco rígido e atualize-o.\n\nSaindo agora..."
+LOCAL3="Falha no teste de conexão com a Internet!\n\nProvavelmente você NÃO está conectado à Internet ou o servidor de repositório principal está inativo.\n\nVerifique e tente novamente."
 LOCAL4="Atualizar o sistema agora?"
-LOCAL5="Atualizar_agora"
-LOCAL6="Mostre_Log_de_Modificações"
-LOCAL7="Fim"
-LOCAL8="Seu sistema está atualizado agora!\n\nSaindo agora ..."
-LOCAL9="Atualizar_agora(--no-recommends)"
+LOCAL5="Atualizar (Upgrade)"
+LOCAL6="Log de Modificações"
+LOCAL7="Sair"
+LOCAL8="Seu sistema está atualizado!\n\nSaindo agora ..."
+LOCAL9="Atualizar(--não-recomendado)"
 ### .desktop file to be translated too
-# Name[pt_BR]=Sistema de Atualização (Upgrade)
+# Name[pt_BR]=Atualização do sistema (Upgrade)
 # Comment[pt_BR]=Ferramenta do Sistema de Atualização (Upgrade)
