@@ -2,8 +2,8 @@
 
 # Sparky APTus Upgrade is a simply tool for upgrading the system
 # Created by Paweł "pavroo" Pijanowski 2014/10/31
-# Copyright 2014-2018 under the GNU GPL2 License
-# Last update 2018/08/02
+# Copyright 2014-2019 under the GNU GPL2 License
+# Last update 2019/05/20
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus-upgrade"
@@ -64,22 +64,22 @@ fi
 # if Live system just quit, don't upgrade
 TESTMODE=`grep "live" /etc/passwd`
 if [ "$TESTMODE" != "" ]; then
-    $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL2"
-    exit 1
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL2"
+	exit 1
 fi
 
 mainmenu () {
 # check out connection to debian server
 PINGTEST0=$(ping -c 1 debian.org | grep [0-9])
 if [ "$PINGTEST0" = "" ]; then
-    $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL3"
-    exit 1
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL3"
+	exit 1
 fi
 # check out connection to sparky server
 PINGTEST1=$(ping -c 1 sparkylinux.org | grep [0-9])
 if [ "$PINGTEST1" = "" ]; then
-    $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL3"
-    exit 1
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL3"
+	exit 1
 fi
 
 # refresh package list
@@ -91,6 +91,38 @@ if [ -d /tmp/aptus-upgrade ]; then
 	rm -rf /tmp/aptus-upgrade
 fi
 mkdir -p /tmp/aptus-upgrade
+
+# compare sparky and sparky-apt versions
+# check sparky version
+SPARKYVERCHECK6="`cat /etc/issue | grep 6`"
+SPARKYVERCHECK5="`cat /etc/issue | grep 5`"
+SPARKYVERCHECK4="`cat /etc/issue | grep 4`"
+SPARKYNAME6="`cat /etc/os-release | grep Po`"
+SPARKYNAME5="`cat /etc/os-release | grep Nibiru`"
+SPARKYNAME4="`cat /etc/os-release | grep Tyche`"
+if [ "$SPARKYVERCHECK6" != "" ] || [ "$SPARKYNAME6" != "" ]; then
+	DEBNAME="sparky6-apt"
+elif [ "$SPARKYVERCHECK5" != "" ] || [ "$SPARKYNAME5" != "" ]; then
+	DEBNAME="sparky5-apt"
+elif [ "$SPARKYVERCHECK4" != "" ] || [ "$SPARKYNAME4" != "" ]; then
+	DEBNAME="sparky4-apt"
+else
+	DEBNAME=""
+fi
+
+# check sparky-apt version
+if [ "$DEBNAME" = "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL10"
+	exit 1
+fi
+DEBINSTALLED=`apt-cache policy $DEBNAME | head -n2 | tail -n1 | grep [0-9] | cut -f4 -d " "`
+DEBCANDIDATE=`apt-cache policy $DEBNAME | head -n3 | tail -n1 | grep [0-9] | cut -f4 -d " "`
+# install the latest version of sparky repository list before upgrading other packages if needed
+if [ $DEBINSTALLED \< $DEBCANDIDATE ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL11 $DEBNAME $LOCAL12"
+	$SPARKYXTERM "apt install $DEBNAME -y"
+	$SPARKYXTERM "apt-get update"
+fi
 
 # get info about packages to be upgraded
 apt-get -u dist-upgrade --assume-no >> /tmp/aptus-upgrade/checkout
@@ -112,7 +144,7 @@ apt list --upgradable >> /tmp/aptus-upgrade/upgradable
 sed -i 1d /tmp/aptus-upgrade/upgradable
 cat /tmp/aptus-upgrade/upgradable >> /tmp/aptus-upgrade/changelog
 
-#/usr/lib/sparky-aptus-upgrade/upgrade-now
+# display dialog menu now
 dialogmenu
 }
 
@@ -120,14 +152,14 @@ dialogmenu () {
 # check out connection to debian server
 PINGTEST0=$(ping -c 1 debian.org | grep [0-9])
 if [ "$PINGTEST0" = "" ]; then
-    $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL3"
-    exit 1
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL3"
+	exit 1
 fi
 # check out connection to sparky server
 PINGTEST1=$(ping -c 1 sparkylinux.org | grep [0-9])
 if [ "$PINGTEST1" = "" ]; then
-    $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL3"
-    exit 1
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL3"
+	exit 1
 fi
 
 # get info about packages to be upgraded

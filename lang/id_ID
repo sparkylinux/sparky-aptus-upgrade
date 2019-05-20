@@ -1,8 +1,8 @@
 # Indonesian localization file for Sparky APTus Upgrade.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update by pavroo 2018/07/23
 # Translated to Indonesian by les kompie
+# Last update by pavroo 2019/05/20
 LOCAL1="Upgrade Sistem"
 LOCAL2="Ini adalah sistem Live!\nInstal Sparky di hard drive, lalu upgrade. \n\nSekarang keluar..."
 LOCAL3="Uji koneksi internet gagal!\n\nMungkin anda TIDAK terhubung ke Internet, atau server repositori utama sedang mati. \n\nPeriksa dan coba lagi."
@@ -12,6 +12,9 @@ LOCAL6="Daftar perubahan"
 LOCAL7="Keluar"
 LOCAL8="Sistem anda sudah diperbarui! \n\nSekarang keluar..."
 LOCAL9="Upgrade(--no-recommends)"
+LOCAL10="Can NOT detect Sparky installation.\nExiting..."
+LOCAL11="A newer version of"
+LOCAL12="is available.\nIt has to be upgraded before other packages."
 ### .desktop file to be translated too
 # Name[id_ID]=Upgrade Sistem
 # Comment[id_ID]=Alat Upgrade Sistem 

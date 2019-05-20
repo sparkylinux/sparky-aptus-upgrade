@@ -1,7 +1,7 @@
 # Файл русской локализации для Sparky APTus Upgrade.
 # Copyright 2016 Igor Klyushnyov <inklu@yandex.ru> 2016/01/16
 # Под лицензией GNU GPL v2
-# Last update by pavroo 2018/07/23
+# Last update by pavroo 2019/05/20
 LOCAL1="Обновление системы"
 LOCAL2="Это Live-система!\nУстановите Sparky на жёсткий диск, затем обновите его.\n\nЗавершение..."
 LOCAL3="Сбой проверки интернет-соединения!\n\nВероятно, вы не подключены к интернету или главный сервер репозитория выключен.\n\nПроверьте это и повторите попытку."
@@ -11,6 +11,9 @@ LOCAL6="Список_изменений"
 LOCAL7="Выйти"
 LOCAL8="Ваша система в актуальном состоянии!\n\nЗавершение..."
 LOCAL9="Обновить(--no-recommends)"
+LOCAL10="Can NOT detect Sparky installation.\nExiting..."
+LOCAL11="A newer version of"
+LOCAL12="is available.\nIt has to be upgraded before other packages."
 ### .desktop file to be translated too
 # Name[ru_RU]=Обновление системы
 # Comment[ru_RU]=Инструмент обновления системы

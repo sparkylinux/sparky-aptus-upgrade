@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
-# Last update by pavroo 2018/07/23
+# Last update by pavroo 2019/05/20
 LOCAL1="システムアップグレード"
 LOCAL2="現在ライブ起動しています！\nSparky をハードドライブへインストールした後アップグレードして下さい。\n\n終了します..."
 LOCAL3="インターネットへ接続できません！\n\nインターネットに接続されていないか、メインのリポジトリサーバがダウンしています。\n\n確認の上、再試行してください。"
@@ -12,6 +12,9 @@ LOCAL6="更新履歴"
 LOCAL7="終了"
 LOCAL8="システムは最新の状態です！\n\n終了します..."
 LOCAL9="更新(--no-recommends)"
+LOCAL10="Can NOT detect Sparky installation.\nExiting..."
+LOCAL11="A newer version of"
+LOCAL12="is available.\nIt has to be upgraded before other packages."
 ### .desktop file to be translated too
 # Name[ja_JP]=システムアップグレード
 # Comment[ja_JP]=システムアップグレードツール
