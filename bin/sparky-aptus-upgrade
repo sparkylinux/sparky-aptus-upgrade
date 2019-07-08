@@ -3,7 +3,7 @@
 # Sparky APTus Upgrade is a simply tool for upgrading the system
 # Created by Paweł "pavroo" Pijanowski 2014/10/31
 # Copyright 2014-2019 under the GNU GPL2 License
-# Last update 2019/05/20
+# Last update 2019/07/08
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus-upgrade"
@@ -94,17 +94,14 @@ mkdir -p /tmp/aptus-upgrade
 
 # compare sparky and sparky-apt versions
 # check sparky version
-SPARKYVERCHECK6="`cat /etc/issue | grep 6`"
-SPARKYVERCHECK5="`cat /etc/issue | grep 5`"
-SPARKYVERCHECK4="`cat /etc/issue | grep 4`"
-SPARKYNAME6="`cat /etc/os-release | grep Po`"
-SPARKYNAME5="`cat /etc/os-release | grep Nibiru`"
-SPARKYNAME4="`cat /etc/os-release | grep Tyche`"
-if [ "$SPARKYVERCHECK6" != "" ] || [ "$SPARKYNAME6" != "" ]; then
+SPARKYNAME6="`cat /etc/lsb-release | grep Tolo`"
+SPARKYNAME5="`cat /etc/lsb-release | grep Nibiru`"
+SPARKYNAME4="`cat /etc/lsb-release | grep Tyche`"
+if [ "$SPARKYNAME6" != "" ]; then
 	DEBNAME="sparky6-apt"
-elif [ "$SPARKYVERCHECK5" != "" ] || [ "$SPARKYNAME5" != "" ]; then
+elif [ "$SPARKYNAME5" != "" ]; then
 	DEBNAME="sparky5-apt"
-elif [ "$SPARKYVERCHECK4" != "" ] || [ "$SPARKYNAME4" != "" ]; then
+elif [ "$SPARKYNAME4" != "" ]; then
 	DEBNAME="sparky4-apt"
 else
 	DEBNAME=""
