@@ -94,32 +94,32 @@ mkdir -p /tmp/aptus-upgrade
 
 # compare sparky and sparky-apt versions
 # check sparky version
-SPARKYNAME6="`cat /etc/lsb-release | grep Tolo`"
-SPARKYNAME5="`cat /etc/lsb-release | grep Nibiru`"
-SPARKYNAME4="`cat /etc/lsb-release | grep Tyche`"
-if [ "$SPARKYNAME6" != "" ]; then
-	DEBNAME="sparky6-apt"
-elif [ "$SPARKYNAME5" != "" ]; then
-	DEBNAME="sparky5-apt"
-elif [ "$SPARKYNAME4" != "" ]; then
-	DEBNAME="sparky4-apt"
-else
-	DEBNAME=""
-fi
+#SPARKYNAME6="`cat /etc/lsb-release | grep Tolo`"
+#SPARKYNAME5="`cat /etc/lsb-release | grep Nibiru`"
+#SPARKYNAME4="`cat /etc/lsb-release | grep Tyche`"
+#if [ "$SPARKYNAME6" != "" ]; then
+#	DEBNAME="sparky6-apt"
+#elif [ "$SPARKYNAME5" != "" ]; then
+#	DEBNAME="sparky5-apt"
+#elif [ "$SPARKYNAME4" != "" ]; then
+#	DEBNAME="sparky4-apt"
+#else
+#	DEBNAME=""
+#fi
 
 # check sparky-apt version
-if [ "$DEBNAME" = "" ]; then
-	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL10"
-	exit 1
-fi
-DEBINSTALLED=`apt-cache policy $DEBNAME | head -n2 | tail -n1 | grep [0-9] | cut -f4 -d " "`
-DEBCANDIDATE=`apt-cache policy $DEBNAME | head -n3 | tail -n1 | grep [0-9] | cut -f4 -d " "`
+#if [ "$DEBNAME" = "" ]; then
+#	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL10"
+#	exit 1
+#fi
+#DEBINSTALLED=`apt-cache policy $DEBNAME | head -n2 | tail -n1 | grep [0-9] | cut -f4 -d " "`
+#DEBCANDIDATE=`apt-cache policy $DEBNAME | head -n3 | tail -n1 | grep [0-9] | cut -f4 -d " "`
 # install the latest version of sparky repository list before upgrading other packages if needed
-if [ "$DEBINSTALLED" \< "$DEBCANDIDATE" ]; then
-	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL11 $DEBNAME $LOCAL12"
-	$SPARKYXTERM "apt install $DEBNAME -y"
-	$SPARKYXTERM "apt-get update"
-fi
+#if [ "$DEBINSTALLED" \< "$DEBCANDIDATE" ]; then
+#	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL11 $DEBNAME $LOCAL12"
+#	$SPARKYXTERM "apt install $DEBNAME -y"
+#	$SPARKYXTERM "apt-get update"
+#fi
 
 # get info about packages to be upgraded
 apt-get -u dist-upgrade --assume-no >> /tmp/aptus-upgrade/checkout

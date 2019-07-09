@@ -23,7 +23,6 @@ grep
 iputils-ping
 sed
 sparky-editor
-sparky-info
 sparky-remsu
 sparky-xterm (>= 0.2.0)
 yad
