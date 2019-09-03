@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Indonesian by les kompie
-# Last update by pavroo 2019/05/20
+# Last update by pavroo 2019/09/03
 LOCAL1="Upgrade Sistem"
 LOCAL2="Ini adalah sistem Live!\nInstal Sparky di hard drive, lalu upgrade. \n\nSekarang keluar..."
 LOCAL3="Uji koneksi internet gagal!\n\nMungkin anda TIDAK terhubung ke Internet, atau server repositori utama sedang mati. \n\nPeriksa dan coba lagi."
@@ -15,6 +15,8 @@ LOCAL9="Upgrade(--no-recommends)"
 LOCAL10="Can NOT detect Sparky installation.\nExiting..."
 LOCAL11="A newer version of"
 LOCAL12="is available.\nIt has to be upgraded before other packages."
+LOCAL13="Refreshing package list..."
+LOCAL14="Please wait..."
 ### .desktop file to be translated too
 # Name[id_ID]=Upgrade Sistem
 # Comment[id_ID]=Alat Upgrade Sistem 

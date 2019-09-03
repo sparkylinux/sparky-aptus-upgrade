@@ -1,7 +1,7 @@
 # Svensk språkfil för Sparky APTus uppgradering.
 # Copyright 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com> 2015-10-22
 # Under GNU GPL v2
-# Last update by pavroo 2019/05/20
+# Last update by pavroo 2019/09/03
 LOCAL1="Systemuppgradering"
 LOCAL2="Detta är ett Live-system!\nInstallera Sparky på en hårddisk och uppgradera sedan.\n\nAvslutar nu…"
 LOCAL3="Internetuppkopplingstestet misslyckades!\n\nDu är antagligen inte uppkopplad till Internet, eller så är huvudförrådets server nere.\n\nKontrollera detta och försök igen."
@@ -14,6 +14,8 @@ LOCAL5="Uppgradera(--no-recommends)"
 LOCAL10="Can NOT detect Sparky installation.\nExiting..."
 LOCAL11="A newer version of"
 LOCAL12="is available.\nIt has to be upgraded before other packages."
+LOCAL13="Refreshing package list..."
+LOCAL14="Please wait..."
 ### .desktop file to be translated too
 # Name[sv_SE]=Systemuppgradering
 # Comment[sv_SE]=Systemuppgraderingsverktyg

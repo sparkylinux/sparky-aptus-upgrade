@@ -1,7 +1,7 @@
 ﻿# Fichier de localisation française de Sparky APTus Upgrade.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Last update by pavroo 2019/05/20
+# Last update by pavroo 2019/09/03
 LOCAL1="Mise à jour du Système"
 LOCAL2="C'est un système Live!\nInstallez Sparky sur un disque dur puis mettez-le à jour.\n\nSortie..."
 LOCAL3="Échec du test de la connexion internet!\n\nVous n'êtes probablement pas connecté à Internet ou bien le serveur du projet est hors-service.\n\nVérifiez et essayez à nouveau."
@@ -14,6 +14,8 @@ LOCAL9="Mise à jour(--no-recommends)"
 LOCAL10="Can NOT detect Sparky installation.\nExiting..."
 LOCAL11="A newer version of"
 LOCAL12="is available.\nIt has to be upgraded before other packages."
+LOCAL13="Refreshing package list..."
+LOCAL14="Please wait..."
 ### .desktop file to be translated too
 # Name[fr_FR]=Mise à jour du Système
 # Comment[fr_FR]=Outil pour la mise à jour du Système

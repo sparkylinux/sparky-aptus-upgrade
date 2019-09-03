@@ -1,7 +1,7 @@
 # English localization file for Sparky APTus Upgrade.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update by pavroo 2019/05/20
+# Last update by pavroo 2019/09/03
 LOCAL1="System Upgrade"
 LOCAL2="It's Live system!\nInstall Sparky on a hard drive then upgrade it.\n\nExiting now..."
 LOCAL3="Internet connection test failed!\n\nProbably you are NOT connected to the Internet or the main repository server is down.\n\nCheck it out and try again."
@@ -14,6 +14,8 @@ LOCAL9="Upgrade(--no-recommends)"
 LOCAL10="Can NOT detect Sparky installation.\nExiting..."
 LOCAL11="A newer version of"
 LOCAL12="is available.\nIt has to be upgraded before other packages."
+LOCAL13="Refreshing package list..."
+LOCAL14="Please wait..."
 ### .desktop file to be translated too
 # Name[en_US]=System Upgrade
 # Comment[en_US]=System Upgrade Tool

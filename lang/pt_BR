@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Sob a licença GNU GPL v2
 # Traduzido por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/10/30
-# Last update by pavroo 2019/05/20
+# Last update by pavroo 2019/09/03
 LOCAL1="Atualização do Sistema (upgrade)"
 LOCAL2="Esse é um sistema "live"!\nInstale o Sparky no disco rígido e atualize-o.\n\nSaindo agora..."
 LOCAL3="Falha no teste de conexão com a Internet!\n\nProvavelmente você NÃO está conectado à Internet ou o servidor de repositório principal está inativo.\n\nVerifique e tente novamente."
@@ -15,6 +15,8 @@ LOCAL9="Atualizar(--não-recomendado)"
 LOCAL10="Can NOT detect Sparky installation.\nExiting..."
 LOCAL11="A newer version of"
 LOCAL12="is available.\nIt has to be upgraded before other packages."
+LOCAL13="Refreshing package list..."
+LOCAL14="Please wait..."
 ### .desktop file to be translated too
 # Name[pt_BR]=Atualização do sistema (Upgrade)
 # Comment[pt_BR]=Ferramenta do Sistema de Atualização (Upgrade)

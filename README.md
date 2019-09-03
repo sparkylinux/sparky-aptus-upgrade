@@ -22,7 +22,6 @@ apt
 grep
 iputils-ping
 sed
-sparky-editor
 sparky-remsu
 sparky-xterm (>= 0.2.0)
 yad

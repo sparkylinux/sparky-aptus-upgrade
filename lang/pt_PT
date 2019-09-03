@@ -2,7 +2,7 @@
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Monday 01 February 15:25:40 WET 2016
 # Sob a Licença GNU GPL v2
 # Última atualização Tuesday 02 February 15:28:40 WET 2016
-# Last update by pavroo 2019/05/20
+# Last update by pavroo 2019/09/03
 LOCAL1="Atualização do Sistema"
 LOCAL2="Seu sistema Live!\nInstale o Sparky em um disco rígido, em seguida, atualizá-lo.\n\nA Sair..."
 LOCAL3="Teste de ligação à Internet falhou!\n\nProvavelmente Não está ligado à Internet ou o servidor de repositório principal com problemas.\n\nConfira e tente novamente."
@@ -15,6 +15,8 @@ LOCAL9="Atualizar(--no-recommends)"
 LOCAL10="Can NOT detect Sparky installation.\nExiting..."
 LOCAL11="A newer version of"
 LOCAL12="is available.\nIt has to be upgraded before other packages."
+LOCAL13="Refreshing package list..."
+LOCAL14="Please wait..."
 ### Arquivo a ser traduzido também .desktop
 # Name[pt_PT]=Atualização do Sistema
 # Comment[pt_PT]=Ferramenta de Atualização do Sistema

@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to German by Pete B. 2015/10/29
-# Last update by pavroo 2019/05/20
+# Last update by pavroo 2019/09/03
 LOCAL1="System Upgrade"
 LOCAL2="Das System läuft als Live-System!\nInstalliere Sparky auf der Festplatte, dann kann man es aktualisieren.\n\nAPTus Upgrade wird beendet..."
 LOCAL3="Test der Internetverbindung fehlgeschlagen!\n\nMöglicherweise besteht KEINE Internetverbindung oder der Repository Server ist offline.\n\nBitte prüfen und erneut versuchen."
@@ -15,6 +15,8 @@ LOCAL9="Upgrade(--no-recommends)"
 LOCAL10="Can NOT detect Sparky installation.\nExiting..."
 LOCAL11="A newer version of"
 LOCAL12="is available.\nIt has to be upgraded before other packages."
+LOCAL13="Refreshing package list..."
+LOCAL14="Please wait..."
 ### .desktop file to be translated too
 # Name[de_DE]=System Upgrade
 # Comment[de_DE]=System Upgrade Tool zum aktualisieren

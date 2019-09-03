@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update by pavroo 2019/05/20
+# Last update by pavroo 2019/09/03
 LOCAL1="Aktualizacja Systemu"
 LOCAL2="To system Live!\nZainstaluj Sparky na dysku komputera zanim go zaktualizujesz.\n\nZamknij..."
 LOCAL3="Połączenie z internetem nieudane!\n\nPrawdopodobnie NIE jesteś połączony z internetem lub główny serwer repozytoriów jest niedostępny.\n\nSprawdź to i spróbuj ponownie."
@@ -15,6 +15,8 @@ LOCAL9="Aktualizuj(--no-recommends)"
 LOCAL10="Nie mogę wykryć instalacji Sparky.\nZamknij..."
 LOCAL11="Nowsza wersja"
 LOCAL12="jest dostępna.\nTen pakiet musi być zaktualizowany przed innymi."
+LOCAL13="Odświeżanie listy pakietów..."
+LOCAL14="Proszę czekać..."
 ### .desktop file, również do przetłumaczenia
 # Name[pl_PL]=Aktualizacja Systemu
 # Comment[pl_PL]=Narzędzie do aktualizacji systemu
