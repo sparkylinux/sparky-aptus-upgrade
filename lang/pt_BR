@@ -12,11 +12,11 @@ LOCAL6="Log de Modificações"
 LOCAL7="Sair"
 LOCAL8="Seu sistema está atualizado!\n\nSaindo agora ..."
 LOCAL9="Atualizar(--não-recomendado)"
-LOCAL10="Can NOT detect Sparky installation.\nExiting..."
-LOCAL11="A newer version of"
-LOCAL12="is available.\nIt has to be upgraded before other packages."
-LOCAL13="Refreshing package list..."
-LOCAL14="Please wait..."
+LOCAL10="NÃO foi possível detectar a instalação Sparky.\nSaindo..."
+LOCAL11="Uma versão mais recente do"
+LOCAL12="está disponível.\nPrecisa ser atualizado antes de outros pacotes."
+LOCAL13="Atualizando lista de pacotes..."
+LOCAL14="Por favor, aguarde..."
 ### .desktop file to be translated too
 # Name[pt_BR]=Atualização do sistema (Upgrade)
 # Comment[pt_BR]=Ferramenta do Sistema de Atualização (Upgrade)
