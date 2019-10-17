@@ -13,10 +13,9 @@ LOCAL8="Rendszere naprakész!\n\nKilépés most..."
 LOCAL9="Frissítés(--no-recommends)"
 LOCAL10="Nem TUD Sparky telepítést azonosítani!\nKilépés..."
 LOCAL11="Újabb kiadása a következőnek:"
-LOCAL12="elérhető.
-LOCAL13="Refreshing package list..."
-LOCAL14="Please wait..."
-Frissítenie kell más csomagok előtt!"
+LOCAL12="elérhető.\nFrissítenie kell más csomagok előtt!"
+LOCAL13="Csomaglista frissítése..."
+LOCAL14="Kérjük, várjon..."
 ### .desktop file to be translated too
 # Name[en_US]=System Upgrade
 # Comment[en_US]=System Upgrade Tool
