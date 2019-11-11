@@ -1,22 +1,23 @@
 # Japanese localization file for Sparky APTus Upgrade.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Translated to Japanese by BALLOON a.k.a. Fu-sen.
 # Last update by pavroo 2019/09/03
+# Translated to Japanese by BALLOON a.k.a. Fu-sen.
+# Translated to Japanese by FuRuYa7.
 LOCAL1="システムアップグレード"
 LOCAL2="現在ライブ起動しています！\nSparky をハードドライブへインストールした後アップグレードして下さい。\n\n終了します..."
-LOCAL3="インターネットへ接続できません！\n\nインターネットに接続されていないか、メインのリポジトリサーバがダウンしています。\n\n確認の上、再試行してください。"
+LOCAL3="インターネット接続に失敗しました！\n\nおそらくインターネットに接続されていないか、メインのリポジトリサーバがダウンしています。\n\n確認して、もう一度試してください。"
 LOCAL4="今すぐシステムを更新しますか？"
 LOCAL5="更新"
 LOCAL6="更新履歴"
 LOCAL7="終了"
 LOCAL8="システムは最新の状態です！\n\n終了します..."
 LOCAL9="更新(--no-recommends)"
-LOCAL10="Can NOT detect Sparky installation.\nExiting..."
-LOCAL11="A newer version of"
-LOCAL12="is available.\nIt has to be upgraded before other packages."
-LOCAL13="Refreshing package list..."
-LOCAL14="Please wait..."
+LOCAL10="Sparky のインストールを検出できません。\n終了しています..."
+LOCAL11="新しいバージョンの"
+LOCAL12="が利用可能です。\n他のパッケージの前にアップグレードする必要があります。"
+LOCAL13="パッケージリストを更新しています..."
+LOCAL14="お待ちください..."
 ### .desktop file to be translated too
 # Name[ja_JP]=システムアップグレード
 # Comment[ja_JP]=システムアップグレードツール
