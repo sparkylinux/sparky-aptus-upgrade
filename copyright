@@ -2,11 +2,15 @@ Upstream Author(s):
     Paweł "pavroo" Pijanowski <pavroo@onet.eu>
     
 Files: *
-    Copyright (C) 2014-2018 Paweł Pijanowski
+    Copyright (C) 2014-2019 Paweł Pijanowski
     License: GPL-2
 
 File: de
     Copyright (C) 2015 Pete B.
+    License: GPL-2
+
+File: el
+    Copyright (C) 2019 jidan
     License: GPL-2
 
 File: es
@@ -31,6 +35,7 @@ File: it
 
 File: ja
     Copyright (C) 2016 BALLOON a.k.a. Fu-sen
+    Copyright (C) 2019 FuRuYa7
     License: GPL-2
 
 File: pt_BR

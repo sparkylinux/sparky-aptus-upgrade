@@ -1,22 +1,21 @@
 # File di localizzazione Italiano per Sparky APTus Upgrade.
-# Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 22/10/2015
+# Copyright 2015 Carloâ€š "malato" Troiani <abbassolafrangetta@gmail.com> 22/10/2015
 # Rilasciato sotto licenza GNU GPL v2
-# Ultimo aggiornamento 22/10/2015
-# Last update by pavroo 2019/09/03
+# Last update by carlo 2019/11/09
 LOCAL1="Aggiorna il sistema"
-LOCAL2="È una live!\nPuoi aggiornare Sparky solo dopo che lo hai installato sul disco.\n\nSto uscendo..."
-LOCAL3="Test della connessione internet falito!\n\nProbabilemnte NON sei connesso ad internet od il repository principale è ofline.\n\nControlla e prova di nuovo."
+LOCAL2="E' una live!\nPuoi aggiornare Sparky solo dopo che lo hai installato sul disco.\n\nSto uscendo..."
+LOCAL3="Test della connessione internet falito!\n\nProbabilemnte NON sei connesso ad internet od il repository principale e' ofline.\n\nControlla e prova di nuovo."
 LOCAL4="Vuoi davvero aggiornare il sistema?"
 LOCAL5="Aggiornamento"
 LOCAL6="Lista_delle_modifiche"
 LOCAL7="Esci"
-LOCAL8="Il tuo sistema è aggiornato!\n\nSto uscendo..."
-LOCAL9="Aggiornamento(--no-recommends)"
-LOCAL10="Can NOT detect Sparky installation.\nExiting..."
-LOCAL11="A newer version of"
-LOCAL12="is available.\nIt has to be upgraded before other packages."
-LOCAL13="Refreshing package list..."
-LOCAL14="Please wait..."
+LOCAL8="Il tuo sistema e' aggiornato!\n\nSto uscendo..."
+LOCAL9="Aggiornamento (--no-recommends)"
+LOCAL10="NON posso individuare l'installazione di Sparky.\nSto uscendo..."
+LOCAL11="Una versione piu' aggiornata di"
+LOCAL12="e' sidponibile.\nDeve essere aggiornato prima di poter procedere con gli altri pacchetti."
+LOCAL13="Sto aggiornando la lista dei pacchetti..."
+LOCAL14="Per favore, attendi..."
 ### .desktop file to be translated too
 # Name[it_IT]=Aggiorna il Sistema
 # Comment[it_IT]=Strumento per aggiornare il sistema
