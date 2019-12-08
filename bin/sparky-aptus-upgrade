@@ -3,7 +3,7 @@
 # Sparky APTus Upgrade is a simply tool for upgrading the system
 # Created by Paweł "pavroo" Pijanowski 2014/10/31
 # Copyright 2014-2019 under the GNU GPL2 License
-# Last update 2019/11/17
+# Last update 2019/12/08
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus-upgrade"
@@ -52,8 +52,10 @@ TEXT="--text="
 ENTRYTEXT="--entry-text"
 MSGBOX=" --button=Ok:0"
 NOBUTTONS="--no-buttons"
-PROGRESS="--progress --pulsate --auto-close --no-buttons --auto-kill --text="
-PROGRESSTEXT="--progress-text="
+PROGRESS="--progress --pulsate --auto-close --no-buttons --auto-kill --hide-text --text="
+#PROGRESSTEXT="--progress-text= "
+DIALOGZEN="zenity --progress --pulsate --auto-close --auto-kill --no-cancel --window-icon=/usr/share/icons/sparky/upgrade/aptus-upgrade.png --width=400"
+TITLEZEN="--title="
 
 if [ -f /usr/bin/sparky-xterm ];then
 	SPARKYXTERM="/usr/bin/sparky-xterm"
@@ -85,7 +87,8 @@ fi
 
 # refresh package list
 #$SPARKYXTERM "apt-get update"
-apt-get update | $DIALOG $TITLE"$TITLETEXT" $PROGRESS"$LOCAL13" $PROGRESSTEXT"$LOCAL14"
+#apt-get update | $DIALOG $TITLE"$TITLETEXT" $PROGRESS"$LOCAL13" $PROGRESSTEXT"$LOCAL14"
+apt-get update | $DIALOGZEN $TITLEZEN"$TITLETEXT" $TEXT"$LOCAL13 $LOCAL14"
 sleep 1
 
 # preper temporary folder
