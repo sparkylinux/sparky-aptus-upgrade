@@ -32,7 +32,7 @@ else
 	if [ ! -d /usr/share/icons/sparky/upgrade ]; then
 		mkdir -p /usr/share/icons/sparky/upgrade
 	fi
-	cp share/aptus-upgrade.png /usr/share/icons/sparky/upgrade/
+	cp share/aptus-upgrade.* /usr/share/icons/sparky/upgrade/
 	if [ ! -d /usr/share/sparky/sparky-aptus-upgrade ]; then
 		mkdir -p /usr/share/sparky/sparky-aptus-upgrade
 	fi
