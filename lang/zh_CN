@@ -13,7 +13,7 @@ LOCAL8="你的系统已经是最新的了！\n\n现在退出……"
 LOCAL9="更新(--no-recommends)"
 LOCAL10="无法检测到 Sparky 已经安装。\n退出……"
 LOCAL11="新版本的"
-LOCAL12="已经可以使用\n它必须在其他软件包之前升级。"
+LOCAL12="已经可以使用。\n它必须在其他软件包之前升级。"
 LOCAL13="刷新软件包列表中……"
 LOCAL14="请稍等……"
 ### .desktop file to be translated too
