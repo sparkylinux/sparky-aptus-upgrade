@@ -1,0 +1,21 @@
+# Chinese(Simplified) localization file for Sparky APTus Upgrade.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Last update by xingjiapneg 2020/05/03
+LOCAL1="系统更新"
+LOCAL2="现在是 Live 系统！\n请现在硬盘上安装 Sparky 再对它进行更新。\n\n现在退出……"
+LOCAL3="网络连接测试失败！\n\n也许你并没有连接到网络，主软件仓库服务器不在线。\n\n请检查并重试。"
+LOCAL4="现在更新系统？"
+LOCAL5="更新"
+LOCAL6="更新日志"
+LOCAL7="推出"
+LOCAL8="你的系统已经是最新的了！\n\n现在退出……"
+LOCAL9="更新(--no-recommends)"
+LOCAL10="无法检测到 Sparky 已经安装。\n退出……"
+LOCAL11="新版本的"
+LOCAL12="已经可以使用\n它必须在其他软件包之前升级。"
+LOCAL13="刷新软件包列表中……"
+LOCAL14="请稍等……"
+### .desktop file to be translated too
+# Name[zh_US]=系统更新
+# Comment[zh_US]=系统更新工具
