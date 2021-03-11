@@ -2,8 +2,8 @@
 
 # Sparky APTus Upgrade is a simply tool for upgrading the system
 # Created by Paweł "pavroo" Pijanowski 2014/10/31
-# Copyright 2014-2020 under the GNU GPL2 License
-# Last update 2020/10/06
+# Copyright 2014-2021 under the GNU GPL2 License
+# Last update 2021/03/11
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus-upgrade"
@@ -11,8 +11,8 @@ if [ "`cat /etc/default/locale | grep LANG= | grep de`" != "" ]; then
 . $DEFLOCDIR/de
 elif [ "`cat /etc/default/locale | grep LANG= | grep el`" != "" ]; then
 . $DEFLOCDIR/el
-elif [ "`cat /etc/default/locale | grep LANG= | grep es`" != "" ]; then
-. $DEFLOCDIR/es
+#elif [ "`cat /etc/default/locale | grep LANG= | grep es`" != "" ]; then
+#. $DEFLOCDIR/es
 elif [ "`cat /etc/default/locale | grep LANG= | grep fr`" != "" ]; then
 . $DEFLOCDIR/fr
 elif [ "`cat /etc/default/locale | grep LANG= | grep hu`" != "" ]; then
@@ -60,7 +60,7 @@ PROGRESS="--progress --pulsate --auto-close --no-buttons --auto-kill --hide-text
 DIALOGZEN="zenity --progress --pulsate --auto-close --auto-kill --no-cancel --window-icon=/usr/share/icons/sparky/upgrade/aptus-upgrade.svg --width=400"
 TITLEZEN="--title="
 
-if [ -f /usr/bin/sparky-xterm ];then
+if [ -f /usr/bin/sparky-xterm ]; then
 	SPARKYXTERM="/usr/bin/sparky-xterm"
 else
 	echo "sparky-xterm is missing... Exiting..."
@@ -168,7 +168,6 @@ fi
 upgrademenu () {
 # do full upgrade
 $SPARKYXTERM "apt full-upgrade --no-install-recommends -y"
-#$SPARKYXTERM "apt install -f"
 sleep 1
 
 # re-check is your system up-to-date
@@ -176,7 +175,6 @@ mainmenu
 }
 
 changelogmenu () {
-#display changelog
 $DIALOGLOG $MSGBOX
 
 dialogmenu
