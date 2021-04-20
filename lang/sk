@@ -1,0 +1,21 @@
+# Slovak localization file for Sparky APTus Upgrade.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Last update by pavroo 2019/09/03
+LOCAL1="Aktualizácia systému"
+LOCAL2="Toto je Live systém!\nNainštalujte Sparky na pevný disk a potom spustite aktualizáciu.\n\nKončím..."
+LOCAL3="Test pripojenia k internetu skončil s chybou!\n\nJe možné, že NIE ste pripojený k internetu alebo je server s hlavným repozitárom nedostupný.\n\nSkúste to preveriť a zopakujte pokus neskôr."
+LOCAL4="Aktualizovať systém teraz?"
+LOCAL5="Aktualizovať"
+LOCAL6="Zoznam zmien"
+LOCAL7="Ukončiť"
+LOCAL8="Váš systém je aktuálny!\n\nKončím..."
+LOCAL9="Aktualizovať (--no-recommends)"
+LOCAL10="Nepodarilo sa zistiť inštaláciu Sparky.\nKončím..."
+LOCAL11="Novšia verzia"
+LOCAL12="je dostupná.\nSkôr ako dáte inštalovať ďalšie aktualizácie, musíte aktualizovať tento balíček."
+LOCAL13="Obnovujem zoznam balíčkov..."
+LOCAL14="Čakajte, prosím..."
+### .desktop file to be translated too
+# Name[sk_SK]=Aktualizácia systému
+# Comment[sk_SK]=Nástroj na aktualizáciu systému
