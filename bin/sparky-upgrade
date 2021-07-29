@@ -2,13 +2,13 @@
 
 # Sparky APTus Upgrade is a simply tool for upgrading the system
 # Created by Paweł "pavroo" Pijanowski 2014/10/31
-# Copyright 2014-2020 under the GNU GPL2 License
-# Last update 2020/01/12
+# Copyright 2014-2021 under the GNU GPL2 License
+# Last update 2021/07/29
 
 # It runs full system upgrade in a text console
 
 # check out connection to debian server
-PINGTEST0=$(ping -c 1 debian.org | grep [0-9])
+PINGTEST0=$(sudo ping -c 1 debian.org | grep [0-9])
 if [ "$PINGTEST0" = "" ]; then
 	echo "Debian server is not reachable, exiting..."
 	exit 1
@@ -18,7 +18,7 @@ else
 fi
 
 # check out connection to sparky server
-PINGTEST1=$(ping -c 1 sparkylinux.org | grep [0-9])
+PINGTEST1=$(sudo ping -c 1 sparkylinux.org | grep [0-9])
 if [ "$PINGTEST1" = "" ]; then
 	echo "Sparky server is not reachable, exiting..."
 	exit 1
