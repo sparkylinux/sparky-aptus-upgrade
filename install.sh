@@ -16,7 +16,7 @@
 
 if [ "$1" = "uninstall" ]; then
    	rm -f /usr/bin/sparky-aptus-upgrade
-	rm -f /usr/bin/sparky-upgrade
+	#rm -f /usr/bin/sparky-upgrade
 	rm -f /usr/lib/sparky-center/software/sparky-aptus-upgrade.desktop
 	rm -f /usr/share/applications/sparky-aptus-upgrade.desktop
 	rm -f /usr/share/menu/sparky-aptus-upgrade

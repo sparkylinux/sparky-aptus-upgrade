@@ -24,6 +24,7 @@ iputils-ping
 mount
 sed
 sparky-remsu
+sparky-upgrade
 sparky-xterm (>= 0.2.0)
 sudo
 yad
