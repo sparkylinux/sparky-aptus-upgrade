@@ -2,18 +2,19 @@
 # Copyright 2015 Carloâ€š "malato" Troiani <abbassolafrangetta@gmail.com> 22/10/2015
 # Rilasciato sotto licenza GNU GPL v2
 # Last update by carlo 2019/11/09
+# Ultimo aggiornamento 2022/05/18 by Yodel Sinatra <mastodon.uno/@YodelSinatra>
 LOCAL1="Aggiorna il sistema"
-LOCAL2="E' una live!\nPuoi aggiornare Sparky solo dopo che lo hai installato sul disco.\n\nSto uscendo..."
-LOCAL3="Test della connessione internet falito!\n\nProbabilemnte NON sei connesso ad internet od il repository principale e' ofline.\n\nControlla e prova di nuovo."
+LOCAL2="È una live!\nPuoi aggiornare Sparky dopo averlo installato sul disco rigido.\n\nPuoi uscire..."
+LOCAL3="Test della connessione internet fallito!\n\nProbabilemnte NON sei connesso ad internet o il server che ospita i pacchetti è offline.\n\nControlla e riprova."
 LOCAL4="Vuoi davvero aggiornare il sistema?"
 LOCAL5="Aggiornamento"
-LOCAL6="Lista_delle_modifiche"
+LOCAL6="Lista delle modifiche"
 LOCAL7="Esci"
-LOCAL8="Il tuo sistema e' aggiornato!\n\nSto uscendo..."
-LOCAL9="Aggiornamento (--no-recommends)"
-LOCAL10="NON posso individuare l'installazione di Sparky.\nSto uscendo..."
-LOCAL11="Una versione piu' aggiornata di"
-LOCAL12="e' sidponibile.\nDeve essere aggiornato prima di poter procedere con gli altri pacchetti."
+LOCAL8="Il tuo sistema è aggiornato!\n\nPuoi uscire..."
+LOCAL9="Aggiornamento (--no-consigliato)"
+LOCAL10="NON posso individuare l'installazione di Sparky.\nPuoi uscire..."
+LOCAL11="Una versione più aggiornata di"
+LOCAL12="è disponibile.\nDeve essere aggiornato prima degli altri pacchetti."
 LOCAL13="Sto aggiornando la lista dei pacchetti..."
 LOCAL14="Per favore, attendi..."
 ### .desktop file to be translated too

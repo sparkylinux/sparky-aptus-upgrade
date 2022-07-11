@@ -1,0 +1,22 @@
+# Spanish localization file for Sparky APTus Upgrade.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Last update by pavroo 2019/09/03
+# Translated to Spanish by depaz
+LOCAL1="Actualización del sistema"
+LOCAL2="¡Esto es un sistema en vivo!\nInstale Sparky en un disco duro para actualizarlo.\n\nSaliendo..."
+LOCAL3="¡El test de conexión a Internet falló!\n\nEs probable que NO esté conectado a Internet o que el servidor del repositorio principal esté caído. \n\nCompruébelo e inténtelo de nuevo."
+LOCAL4="¿Actualizar el sistema?"
+LOCAL5="Actualizar"
+LOCAL6="Lista de cambios"
+LOCAL7="Salir"
+LOCAL8="¡Su sistema está actualizado!\n\nSaliendo..."
+LOCAL9="Actualizar(--no-recommends)"
+LOCAL10="NO se pudo detectar una instalación de Sparky.\nSaliendo..."
+LOCAL11="Una nueva versión de"
+LOCAL12="está disponible.\nDebe ser actualizado antes que otros paquetes."
+LOCAL13="Actualizando lista de paquetes..."
+LOCAL14="Por favor, espere..."
+### .desktop file to be translated too
+# Name[es_ES]=Actualización del sistema
+# Comment[es_ES]=Herramienta de actualización del sistema
