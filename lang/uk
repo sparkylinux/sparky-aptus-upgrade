@@ -1,0 +1,23 @@
+# Файл української локалізації для Sparky APTus Upgrade.
+# Ukrainian localization made by XalisRatt 2023/01/19 (I almost never use email, so contact me on matrix instead
+# <@xalisqull:arcticfoxes.net> or discord <XalisRatt#2308>
+# Copyright 2015 PaweЕ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Під ліцензією GNU GPL v2
+# Last update by pavroo 2019/09/03
+LOCAL1="Оновлення системи"
+LOCAL2="Це Live-система!\nВстановіть Sparky на жорсткий диск, потім оновіть його.\n\nЗавершую..."
+LOCAL3="Сбій перевірки підключення до інтернету!\n\nЙмовірно, ви не підключені до інтернету чи головний сервер репозиторію вимкнено.\n\nПеревірте ваші параметри та спробуйте знову."
+LOCAL4="Оновити систему зараз?"
+LOCAL5="Оновити"
+LOCAL6="Список змін"
+LOCAL7="Вийти"
+LOCAL8="Ваша система в актуальному стані!\n\nЗавершую..."
+LOCAL9="Оновити(--no-recommends)"
+LOCAL10="НЕ виявлено встановленої Sparky.\nЗавершую..."
+LOCAL11="Новіша версія"
+LOCAL12="доступна.\nЦей пакунок потрібно оновити перед іншими пакунками."
+LOCAL13="Оновлення списку пакунків..."
+LOCAL14="Будь ласка, зачекайте..."
+### .desktop file to be translated too
+# Name[uk_UA]=Оновлення системи
+# Comment[uk_UA]=Засіб оновлення системи
