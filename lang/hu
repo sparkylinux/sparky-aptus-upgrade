@@ -1,21 +1,21 @@
-# Hungarian localization file for Sparky APTus Upgrade. (Translated by Nemomen).
+# Hungarian localization file for Sparky APTus Upgrade. (Translated by Nemomen & BunnyMnemonic).
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update by pavroo 2019/09/08
-LOCAL1="Rendszer frissítés"
-LOCAL2="Ez "Élő rendszer (Live system)!\nTelepítse a Sparkyt a merevlemezre, majd frissítse.\n\nKilépés most..."
-LOCAL3="Az Internet kapcsolati teszt sikertelen!\n\nLehet, hogy Ön NEM kapcsolódik az Internet-hálózatra vagy a fő tárolószerver nem érhető el.\n\nEllenőrizze és próbálja újra!”
-LOCAL4="Frissíti a rendszert most?"
+# Last update by BunnyMnemonic 2023/09/20
+LOCAL1="Rendszerfrissítés"
+LOCAL2="Ez egy Élő rendszer (Live system)!\nTelepítse a Sparkyt a merevlemezre, majd frissítse!\n\nKilépés most..."
+LOCAL3="Az internetkapcsolati teszt sikertelen!\n\nLehet, hogy gépe NEM kapcsolódik az internethálózatra, vagy a fő tárolószerver nem érhető el.\n\nEllenőrizze és próbálja újra!”
+LOCAL4="Frissíti most a rendszert?"
 LOCAL5="Frissítés"
 LOCAL6="Változáslista"
 LOCAL7="Kilépés"
 LOCAL8="Rendszere naprakész!\n\nKilépés most..."
 LOCAL9="Frissítés(--no-recommends)"
-LOCAL10="Nem TUD Sparky telepítést azonosítani!\nKilépés..."
-LOCAL11="Újabb kiadása a következőnek:"
-LOCAL12="elérhető.\nFrissítenie kell más csomagok előtt!"
+LOCAL10="NEM észlelhető, hogy a Sparky telepítve lenne.\nKilépés..."
+LOCAL11="Elérhető újabb kiadása a következőnek:"
+LOCAL12="\nFrissítenie kell más csomagok előtt!"
 LOCAL13="Csomaglista frissítése..."
 LOCAL14="Kérjük, várjon..."
 ### .desktop file to be translated too
-# Name[en_US]=System Upgrade
-# Comment[en_US]=System Upgrade Tool
+# Name[hu]=Rendszerfrissítés
+# Comment[hu]=Rendszerfrissítő eszköz
