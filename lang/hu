@@ -4,7 +4,7 @@
 # Last update by BunnyMnemonic 2023/09/20
 LOCAL1="Rendszerfrissítés"
 LOCAL2="Ez egy Élő rendszer (Live system)!\nTelepítse a Sparkyt a merevlemezre, majd frissítse!\n\nKilépés most..."
-LOCAL3="Az internetkapcsolati teszt sikertelen!\n\nLehet, hogy gépe NEM kapcsolódik az internethálózatra, vagy a fő tárolószerver nem érhető el.\n\nEllenőrizze és próbálja újra!”
+LOCAL3="Az internetkapcsolati teszt sikertelen!\n\nLehet, hogy gépe NEM kapcsolódik az internethálózatra, vagy a fő tárolószerver nem érhető el.\n\nEllenőrizze és próbálja újra!"
 LOCAL4="Frissíti most a rendszert?"
 LOCAL5="Frissítés"
 LOCAL6="Változáslista"
