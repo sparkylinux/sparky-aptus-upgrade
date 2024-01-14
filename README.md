@@ -30,6 +30,10 @@ sudo
 yad
 zenity
 
+Suggests:
+------------
+nala
+
 Install:
 -------------
 su (or sudo) 
