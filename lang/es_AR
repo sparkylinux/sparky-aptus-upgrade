@@ -1,21 +1,21 @@
-# Archivo de localización en español para Sparky APTus Upgrade.
+# Archivo de localizaciÃ³n en espaÃ±ol (de Argentina) para Sparky APTus Upgrade.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/22
 # Bajo la licencia GNU GPL v2
-# Last update by pavroo 2019/09/03
-LOCAL1="Actualización del Sistema"
-LOCAL2="¡Esto es un sistema Live!\nInstale Sparky en el disco rígido y luego actualícelo.\n\nSalir ahora..."
-LOCAL3="¡Falló la prueba de conexión a Internet!\n\nProbablemente Ud NO esté conectado a Internet o el servidor principal del repositorio se haya caído.\n\nVerifique esto e inténtelo nuevamente."
-LOCAL4="¿Actualizar el sistema ahora?"
+# Last update: 2024/04/15 by aleXimon
+LOCAL1="ActualizaciÃ³n del Sistema"
+LOCAL2="Â¡Esto es un sistema en Vivo!\nInstale Sparky en el disco rÃ­gido y luego actualÃ­celo.\n\nSalir ahora..."
+LOCAL3="Â¡FallÃ³ la prueba de conexiÃ³n a Internet!\n\nProbablemente Ud NO estÃ¡ conectado a Internet o el servidor principal del repositorio se haya caÃ­do.\n\nVerifique esto e intÃ©ntelo nuevamente."
+LOCAL4="Â¿Actualizar el sistema ahora?"
 LOCAL5="Actualizar"
-LOCAL6="Registro_de_cambios"
+LOCAL6="Ver el registro de cambios"
 LOCAL7="Salir"
-LOCAL8="¡Su sistema está actualizado!\n\nSalir ahora..."
+LOCAL8="Â¡Su sistema estÃ¡ actualizado!\n\nSalir ahora..."
 LOCAL9="Actualizar(--no-recommends)"
-LOCAL10="Can NOT detect Sparky installation.\nExiting..."
-LOCAL11="A newer version of"
-LOCAL12="is available.\nIt has to be upgraded before other packages."
-LOCAL13="Refreshing package list..."
-LOCAL14="Please wait..."
+LOCAL10="NO se detectÃ³ una instalaciÃ³n de Sparky.\nSaliendo..."
+LOCAL11="EstÃ¡ disponible una nueva versiÃ³n de"
+LOCAL12=".\Debe ser actualizada antes que el resto de los paquetes."
+LOCAL13="Refrescando la lista de Paquetes..."
+LOCAL14="Espere, por favor..."
 ### .desktop file to be translated too
-# Name[es_AR]=Actualización del Sistema
-# Comment[es_AR]=Herramienta de Actualización del Sistema
+# Name[es_AR]=ActualizaciÃ³n del Sistema
+# Comment[es_AR]=Herramienta de ActualizaciÃ³n del Sistema
