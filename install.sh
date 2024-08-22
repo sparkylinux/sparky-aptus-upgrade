@@ -17,17 +17,17 @@
 if [ "$1" = "uninstall" ]; then
    	rm -f /usr/bin/sparky-aptus-upgrade
 	#rm -f /usr/bin/sparky-upgrade
-	rm -f /usr/lib/sparky-center/software/sparky-aptus-upgrade.desktop
+	#rm -f /usr/lib/sparky-center/software/sparky-aptus-upgrade.desktop
 	rm -f /usr/share/applications/sparky-aptus-upgrade.desktop
 	rm -f /usr/share/menu/sparky-aptus-upgrade
 	rm -rf /usr/share/icons/sparky/upgrade
 	rm -rf /usr/share/sparky/sparky-aptus-upgrade
 else
 	cp bin/* /usr/bin/
-	if [ ! -d /usr/lib/sparky-center/software ]; then
-		mkdir -p /usr/lib/sparky-center/software
-	fi
-	cp share/sparky-aptus-upgrade.desktop /usr/lib/sparky-center/software/
+	#if [ ! -d /usr/lib/sparky-center/software ]; then
+	#	mkdir -p /usr/lib/sparky-center/software
+	#fi
+	#cp share/sparky-aptus-upgrade.desktop /usr/lib/sparky-center/software/
 	cp share/sparky-aptus-upgrade.desktop /usr/share/applications/
 	cp share/sparky-aptus-upgrade /usr/share/menu/
 	if [ ! -d /usr/share/icons/sparky/upgrade ]; then

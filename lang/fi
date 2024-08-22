@@ -1,0 +1,21 @@
+# Suomenkielinen lokalisointitiedosto Sparky APTus -päivitykselle.
+# Tekijänoikeus 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 22.10.2015
+# GNU GPL v2:n alla
+# Viimeisin päivitys: pavroo 2019/09/03
+LOCAL1="Järjestelmän päivitys"
+LOCAL2="Se on Live-järjestelmä!\nAsenna Sparky kiintolevylle ja päivitä se.\n\nPoistutaan nyt..."
+LOCAL3="Internet-yhteystesti epäonnistui!\n\nEt todennäköisesti ole yhteydessä Internetiin tai päävarastopalvelin on poissa käytöstä.\n\nTarkista ja yritä uudelleen."
+LOCAL4="Päivitetäänkö järjestelmä nyt?"
+LOCAL5="Päivitä"
+LOCAL6="Muutosloki"
+LOCAL7="Poistu"
+LOCAL8="Järjestelmäsi on ajan tasalla!\n\nPoistutaan nyt..."
+LOCAL9="Päivitä (--ei-suosituksia)"
+LOCAL10="EI havaita Sparky-asennusta.\nPoistutaan..."
+LOCAL11="Uudempi versio"
+LOCAL12="on saatavilla.\nSe on päivitettävä ennen muita paketteja."
+LOCAL13="Päivitetään pakettiluetteloa..."
+LOCAL14="Odota..."
+### .desktop-tiedosto käännettävä myös
+# Name[fi]=Järjestelmän päivitys
+# Comment[fi]=Järjestelmän päivitystyökalu
