@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Sparky APTus Upgrade is a simply tool for upgrading the system
+# Sparky APTus Upgrade is a simple tool for upgrading the system
 # Created by Paweł "pavroo" Pijanowski 2014/10/31
 # Copyright 2014-2024 under the GNU GPL2 License
 # Last update 2024/08/22
 
-# get default's locale file
+# get default locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus-upgrade"
 if [ "`cat /etc/default/locale | grep LANG= | grep de`" != "" ]; then
 . $DEFLOCDIR/de
@@ -105,7 +105,7 @@ fi
 apt-get update | $DIALOGZEN $TITLEZEN"$TITLETEXT" $TEXT"$LOCAL13 $LOCAL14"
 sleep 1
 
-# preper temporary folder
+# prepare temporary folder
 if [ -d /tmp/aptus-upgrade ]; then
 	rm -rf /tmp/aptus-upgrade
 fi
@@ -120,7 +120,7 @@ sed -i '1,4d' /tmp/aptus-upgrade/checkout
 sed -i '$ d' /tmp/aptus-upgrade/checkout
 sed -i '$ d' /tmp/aptus-upgrade/checkout
 
-# preper changelog
+# prepare changelog
 cp /tmp/aptus-upgrade/checkout /tmp/aptus-upgrade/changelog
 echo "" >> /tmp/aptus-upgrade/changelog
 echo "#===============Upgrading Details==============================#" >> /tmp/aptus-upgrade/changelog
@@ -186,7 +186,7 @@ else
 fi
 sleep 1
 
-# re-check is your system up-to-date
+# re-check if your system up-to-date
 mainmenu
 }
 
