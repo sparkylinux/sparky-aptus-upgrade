@@ -1,22 +1,22 @@
 # German localization file for Sparky APTus Upgrade.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Translated to German by Pete B. 2015/10/29
+# Translated to German by Pete B. 2015/10/29 (aktualisiert 27.05.2025)
 # Last update by pavroo 2019/09/03
-LOCAL1="System Upgrade"
-LOCAL2="Das System läuft als Live-System!\nInstalliere Sparky auf der Festplatte, dann kann man es aktualisieren.\n\nAPTus Upgrade wird beendet..."
-LOCAL3="Test der Internetverbindung fehlgeschlagen!\n\nMöglicherweise besteht KEINE Internetverbindung oder der Repository Server ist offline.\n\nBitte prüfen und erneut versuchen."
-LOCAL4="Soll das System-Upgrade jetzt durchgeführt werden?"
+LOCAL1="System-Upgrade"
+LOCAL2="Es ist das Live-System!\nInstallieren Sie Sparky auf einer Festplatte, dann upgraden Sie es.\n\Wird jetzt beendet ..."
+LOCAL3="Test der Internetverbindung fehlgeschlagen!\n\nWahrscheinlich sind Sie NICHT mit dem Internet verbunden oder der Haupt-Repository-Server ist ausgefallen.\n\nÜberprüfen Sie das und versuchen Sie es erneut."
+LOCAL4="Das System jetzt upgraden?"
 LOCAL5="Upgrade"
 LOCAL6="Änderungsprotokoll"
 LOCAL7="Beenden"
-LOCAL8="Das System ist nun auf dem neusten Stand!\n\nAPTus Upgrade wird beendet..."
+LOCAL8="Ihr System ist auf dem neusten Stand!\n\nWird beendet ..."
 LOCAL9="Upgrade(--no-recommends)"
-LOCAL10="Can NOT detect Sparky installation.\nExiting..."
-LOCAL11="A newer version of"
-LOCAL12="is available.\nIt has to be upgraded before other packages."
-LOCAL13="Refreshing package list..."
-LOCAL14="Please wait..."
+LOCAL10="Sparky-Installation kann NICHT erkannt werden.\nWird beendet ..."
+LOCAL11="Eine neuere Version von"
+LOCAL12="ist verfügbar.\nDiese muss vor anderen Paketen upgegradet werden."
+LOCAL13="Auffrischen der Paketliste ..."
+LOCAL14="Bitten warten Sie ..."
 ### .desktop file to be translated too
-# Name[de_DE]=System Upgrade
-# Comment[de_DE]=System Upgrade Tool zum aktualisieren
+# Name[de_DE]=System-Upgrade
+# Comment[de_DE]=System-Upgrade-Tool
