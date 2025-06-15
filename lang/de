@@ -1,16 +1,16 @@
 # German localization file for Sparky APTus Upgrade.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Translated to German by Pete B. 2015/10/29 (aktualisiert 27.05.2025)
+# Translated to German by Pete B. 2015/10/29 (aktualisiert 07.06.2025)
 # Last update by pavroo 2019/09/03
 LOCAL1="System-Upgrade"
-LOCAL2="Es ist das Live-System!\nInstallieren Sie Sparky auf einer Festplatte, dann upgraden Sie es.\n\Wird jetzt beendet ..."
+LOCAL2="Es ist das Live-System!\nInstallieren Sie Sparky auf einem Festplattenlaufwerk, dann upgraden Sie es.\n\Wird jetzt beendet ..."
 LOCAL3="Test der Internetverbindung fehlgeschlagen!\n\nWahrscheinlich sind Sie NICHT mit dem Internet verbunden oder der Haupt-Repository-Server ist ausgefallen.\n\nÜberprüfen Sie das und versuchen Sie es erneut."
 LOCAL4="Das System jetzt upgraden?"
 LOCAL5="Upgrade"
 LOCAL6="Änderungsprotokoll"
 LOCAL7="Beenden"
-LOCAL8="Ihr System ist auf dem neusten Stand!\n\nWird beendet ..."
+LOCAL8="Ihr System ist auf dem neuesten Stand!\n\nWird beendet ..."
 LOCAL9="Upgrade(--no-recommends)"
 LOCAL10="Sparky-Installation kann NICHT erkannt werden.\nWird beendet ..."
 LOCAL11="Eine neuere Version von"
